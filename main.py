@@ -155,7 +155,7 @@ def main():
                     print_board(game.board, winning_pos)
                     if winning_pos or game.is_draw():
                         if winning_pos:
-                            print(f"{game.current_player} Player is the winner!")
+                            print(f"{game.current_player.upper()} Player is the winner!")
                         else:
                             print("It is a draw!")
                         play_again = input("Do you wish to play again? ('Yes' to play again): ")
