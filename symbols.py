@@ -130,6 +130,3 @@ board_positions = {
    \\__, |  
      /_/   """
 }
-
-for key in board_symbols:
-    print(board_symbols[key])
